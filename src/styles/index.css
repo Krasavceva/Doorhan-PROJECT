@@ -1,0 +1,26 @@
+@import url("./vars.scss");
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+html {
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+body {
+  max-width: 1720px;
+  margin: 0 auto;
+}
+
+#root {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
